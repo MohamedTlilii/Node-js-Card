@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Workshop Shopping Cart</title>
+        <!-- Bootstrap link CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+        <!-- Font Awesome link CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"
+        />
+        <!-- Local link CSS -->
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <!-- Main Part -->
+        <main>
+            <!-- The shopping Card part -->
+            <section class="shopping-card">
+                <div class="cards-container">
+                    <!-- Product 1 -->
+                    <div class="card" style="width: 15rem">
+                        <img
+                            src="./assets/play5.webp"
+                            class="card-img-top"
+                            alt="baskets"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">PlayStation 5</h5>
+                            <p class="card-text">Just one more game.</p>
+                            <span class="unit-price">500 </span><span>$</span>
+                        </div>
+                        <div class="card-body">
+                            <i class="fas fa-plus-circle plus-btn"></i>
+                            <span class="qte"> 0 </span>
+                            <i class="fas fa-minus-circle minus-btn"></i>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="fas fa-trash-alt"></i>
+                                <i class="fas fa-heart"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="card" style="width: 15rem">
+                        <img
+                            src="./assets/iphone12.png"
+                            class="card-img-top"
+                            alt="socks"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">iphone 12 pro</h5>
+                            <p class="card-text">Faster forward</p>
+                            <span class="unit-price">1000 </span><span>$</span>
+                        </div>
+                        <div class="card-body">
+                            <i class="fas fa-plus-circle plus-btn"></i>
+                            <span class="qte"> 0 </span>
+                            <i class="fas fa-minus-circle minus-btn"></i>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="fas fa-trash-alt"></i>
+                                <i class="fas fa-heart"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="card" style="width: 15rem">
+                        <img
+                            src="./assets/casque.webp"
+                            class="card-img-top"
+                            alt="bag"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Arctis 7p</h5>
+                            <p class="card-text">Next Gen Ready</p>
+                            <span class="unit-price">200 </span><span>$</span>
+                        </div>
+                        <div class="card-body">
+                            <i class="fas fa-plus-circle plus-btn"></i>
+                            <span class="qte">0</span>
+                            <i class="fas fa-minus-circle minus-btn"></i>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="fas fa-trash-alt"></i>
+                                <i class="fas fa-heart"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="total-price-container">
+                    <span>Total Price :</span>
+                    <span class="total-price"> 0 </span>
+                    <span>$</span>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Part -->
+        <footer></footer>
+        <script src="./script.js"></script>
+    </body>
+</html>

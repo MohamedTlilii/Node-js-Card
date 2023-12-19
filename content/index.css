@@ -1,0 +1,85 @@
+i {
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .navbar-brand {
+    color: green !important;
+  }
+  
+  .carousel-item {
+    height: 600px;
+  }
+  
+  /* Shopping card */
+  .shopping-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 2%;
+    margin: 50px 10%;
+  }
+  
+  .total-price-container {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .total-price-container span {
+    font-size: 30px;
+  }
+  
+  /* Card content CSS */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .card {
+    margin: 2%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+  }
+  
+  .product-image {
+    width: 100%;
+  }
+  
+  .unit-price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .plus-btn,
+  .minus-btn {
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  .plus-btn:hover {
+    color: rgb(30, 95, 30);
+  }
+  
+  .minus-btn:hover {
+    color: rgb(199, 16, 16);
+  }
+  
+  .list-group-item i {
+    margin: 10px;
+  }
+  
+  .fa-trash-alt {
+    font-size: 30px;
+    color: black;
+  }
+
+  .toggleHeart{
+      color:red
+  }
